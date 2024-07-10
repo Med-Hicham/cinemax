@@ -386,6 +386,11 @@ body {
     flex-direction: column;
     height: 22%;
     min-width: 100% !important;
+    gap: 3px;
+  }
+  .search {
+    background-color: #b8a5f1;
+    color: #0e0101;
   }
   .details {
     font-size: 12px;
