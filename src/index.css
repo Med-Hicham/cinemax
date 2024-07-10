@@ -410,6 +410,25 @@ body {
   .details .ratings div span svg {
     width: 20px;
   }
+  .box .summary h2 {
+    font-size: 12px;
+  }
+  .box .summary div {
+    gap: 5px;
+  }
+  .box .summary div p {
+    font-size: 10px;
+  }
+  .box .list li {
+    gap: 3px;
+  }
+  .box .list li p {
+    font-size: 10px;
+  }
+  .box .list li button {
+    width: 12px;
+    height: 12px;
+  }
 }
 @media (max-width: 300px) {
   body {
