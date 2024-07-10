@@ -353,6 +353,69 @@ body {
   color: #0e0101;
 }
 
+@media (max-width: 850px) {
+  .search {
+    width: 100%;
+  }
+  div.ratings > svg {
+  }
+}
+@media (max-width: 600px) {
+  .nav-bar .logo span,
+  .nav-bar .logo h1 {
+    font-size: 20px !important;
+  }
+  .nav-bar p {
+    font-size: 12px !important;
+  }
+}
+@media (max-width: 500px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .main .box {
+    height: 50%;
+    width: auto;
+  }
+}
+@media (max-width: 425px) {
+  .nav-bar {
+    display: flex;
+    flex-direction: column;
+    height: 22%;
+    min-width: 100% !important;
+  }
+  .details {
+    font-size: 12px;
+  }
+  .details section {
+    padding: 0;
+  }
+  .details .ratings {
+    margin-top: 8px;
+    gap: 5px !important;
+  }
+  .details .ratings p {
+    font-size: 12px !important;
+  }
+  .details .ratings div {
+    gap: 3px;
+  }
+  .details .ratings div span {
+    width: 20px !important;
+    height: 20px !important;
+  }
+  .details .ratings div span svg {
+    width: 20px;
+  }
+}
+@media (max-width: 300px) {
+  body {
+    padding: 6px 6px;
+  }
+}
 /*
 SPACING SYSTEM (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 40 / 48 / 64 / 80 / 96 / 128

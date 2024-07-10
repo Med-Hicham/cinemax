@@ -372,6 +372,7 @@ function MovieDetails({ selectedId, onCloseMovie, onAddWatched, watched }) {
                   maxRating={10}
                   size={32}
                   onSetRating={setUserRating}
+                  className="ratings"
                 />
                 {userRating > 0 && (
                   <button className="btn-add" onClick={handleAdd}>
