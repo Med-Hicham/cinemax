@@ -113,7 +113,7 @@ function Logo() {
     <div className="logo">
       <span role="img">🎥</span>
       <h1 className="logo-name-heading">
-        Cine<span className="logo-name">Max</span>
+        Ma3cho9tiw<span className="logo-name">Imeniw</span>
       </h1>
     </div>
   );
